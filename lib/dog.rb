@@ -38,9 +38,9 @@ class Dog
   
   private
   
-  def save
-    @@all << self
-  end
+#  def save
+#    @@all << self
+#  end
   
   
 end
