@@ -12,12 +12,9 @@ class Dog
   
   def initialize (name)
     @name = name
-    @@all << self
+    save
+  #  @@all << self
   #  @@all_names << name
-  end
-  
-  def save
-    @@all << self
   end
   
   def self.all
@@ -34,6 +31,12 @@ class Dog
       puts dog.name
     end
   end
-    
+  
+  private
+  
+  def save
+    @@all << self
+  end
+  
   
 end
