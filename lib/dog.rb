@@ -2,7 +2,7 @@
 
 class Dog
   
-  @name = ""
+  #@name = ""
   
   @@all = []
   
