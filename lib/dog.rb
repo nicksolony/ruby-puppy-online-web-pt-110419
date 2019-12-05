@@ -4,6 +4,8 @@ class Dog
   
   @name = ""
   
+  @@all = []
+  
   attr_accessor :name
   
   def initialize (name)
